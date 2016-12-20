@@ -1,0 +1,199 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#header h1{
+	display: none;
+}
+#header li a{
+	text-decoration: none;
+	color: #eee;
+	display: block;
+}
+#header .active{
+	background: #000000;
+}
+#header{
+	width: 100%;
+	height: 50px;
+	min-width: 960px;
+	background: #333;
+}
+#header div{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+#header li a:hover{
+	background: #000000;
+}
+ul{
+	list-style: none;
+	text-align: center;
+}
+li{
+	float: right;
+	width: 90px;
+	line-height: 50px;
+}
+/*header结束*/
+#search{
+	width: 100%;
+	height: 600px;
+	background: url(../img/search.jpg) no-repeat center;
+	position: relative;
+}
+#search .search{
+	width: 600px;
+	height: 50px;
+	/*background: black;*/
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 10px;
+	/*border: 1px solid black;*/
+	/*opacity: 0.4;*/
+}
+#search .search_text{
+	width: 480px;
+	height: 45px;
+	/*border: 1px solid red;*/
+	color: #666;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	margin: auto;
+}
+#search #btn{
+	width: 100px;
+	height: 50px;
+	/*border: 1px solid red;*/
+	color: #666;
+	font-size: 24px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 10px;
+	left: 482px;
+}
+/*search结束*/
+
+/*tour开始*/
+#tour{
+	width:1000px;
+	height: 960px;
+	margin:auto;
+	text-align: center;
+}
+.center h2{
+	font-size: 45px;
+	color: #666;
+	margin: 10px 0;
+}
+.center p{
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure{
+	border: 1px solid #ddd;
+	display: inline-block;
+	margin: 15px 2px;
+	position: relative;
+}
+#tour figure img{
+	vertical-align: middle;
+	width: 316px;
+}
+#tour figure figcaption{
+	text-align: left;
+	line-height: 1.5;
+	color: #666;	
+}
+#price{
+	float: left;
+	color: #f60;
+}
+#price strong{
+	font-size: 20px;
+}
+#tour span{
+	float: right;
+	color: lightgrey;
+}
+#tour #tel{
+	background: lightgreen;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 80px;
+	color: white;
+}
+/*tour结束*/
+/*footer开始*/
+#footer{
+	height: 360px;
+	width: 100%;
+	background: lightslategray;
+	color: lightgray;
+}
+#footer .top{
+	width: 1000px;
+	height: 280px;
+	margin: auto;
+	min-width: 1000px;
+	background: lightslategray;
+	text-align: center;
+}
+#footer .left{
+	width: 332px;
+	height: 280px;
+	float:left;
+	/*border-left: 0.2px solid lightgray;*/
+}
+#footer .left h3{
+	padding: 10px 15px;
+}
+#footer .left span{
+	display: block;
+	padding: 10px 15px;
+}
+#footer .midd{
+	width: 332px;
+	height: 280px;
+	float:left;
+	/*border-left: 0.2px solid lightgray;*/
+}
+#footer .midd h3{
+	padding: 10px 15px;
+}
+#footer .midd span{
+	display: block;
+	padding: 10px 15px;
+}
+#footer .right{
+	width: 333px;
+	height: 280px;
+	float:left;
+	/*border-left: 0.2px solid lightgray;*/
+}
+#footer .right h3{
+	padding: 10px 15px;
+}
+#footer .right span{
+	display: block;
+	padding: 10px 15px;
+}
+#footer .bottom{
+	width: 1000px;
+	height: 80px;
+	margin: auto;
+	min-width: 1000px;
+	text-align: center;
+	line-height: 80px;
+	border-top: 1px solid lightgray;
+	background: lightslategray;
+}
+

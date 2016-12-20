@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: white;
+}
+a,li{
+	text-decoration: none;
+	list-style: none;
+}
+#header h1{
+	display: none;
+}
+#header li a{
+	text-decoration: none;
+	color: #eee;
+	display: block;
+}
+#header .active{
+	background: #000000;
+}
+#header{
+	width: 100%;
+	height: 50px;
+	min-width: 960px;
+	background: #333;
+}
+#header div{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+}
+#header li a:hover{
+	background: #000000;
+}
+ #header ul{
+	list-style: none;
+	text-align: center;
+}
+#header li{
+	float: right;
+	width: 90px;
+	line-height: 50px;
+}
+/*header结束*/
+/*content*/
+#content{
+	background: linear-gradient(to bottom right,rgba(0,0,0,0.7),
+	rgba(0,0,0,0)), url(../img/headline.jpg) no-repeat center;
+	width: 100%px;
+	height: 300px;
+	position: relative;
+	z-index: 8;
+}
+#content .center hgroup{
+	color: white;
+	position: absolute;
+	left: 20%;
+	top: 40%;
+	z-index: 10;
+}
+/*content结束*/
+/*container开始*/
+#container{
+	width: 1000px;
+	/*height: 1000px;*/
+	min-width: 1000px;
+	margin: auto;
+	margin-top: 25px;
+}
+#container .sidebar{
+	width: 320px;
+	height: 100%;
+	float: right;
+}
+
+#container .sidebox{
+	border: 1px solid lightgray;
+	margin: 0 0 10px 0;
+}
+#container .sidebox h2{
+	font-size: 20px;
+	height: 40px;
+	font-weight: none;
+	/*首行缩进*/
+	text-indent: 8px;
+	line-height: 40px;
+	background: #fafafa;
+	color: #666;
+}
+#container .tag a{
+	/*ps:因为a是内联元素,是不能设置宽度和高度的
+	 *所以添加display: inline-block;转换成内敛块
+	 */
+	display: inline-block;
+	text-decoration: none;
+	background: #eee;
+	width: 100px;
+	height: 35px;
+	border-top: 2px solid white;
+	text-align: center;
+	line-height: 35px;
+	color: #999;
+}
+#container .tag a:hover{
+	background: green;
+}
+#container .figure{
+	margin: 0 4px;
+}
+#container figure{
+	display: inline-block;
+}
+
+#container .box a{
+	display: inline-block;
+	text-decoration: none;
+	width: 150px;
+	height: 35px;
+	border-top: 1px solid white;
+	margin: 4px 2px;
+	text-align: center;
+	line-height: 35px;
+	color: #666666;
+}
+#container .box a:hover{
+	background: lightblue;
+	color: white;
+}
+#container .box .trea1{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+	
+}
+#container .box .trea2{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+#container .box .trea3{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+#container .box .trea4{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+/*container结束*/
+/*list开始*/
+/*sceeny开始*/
+#container .scenny{
+	width: 678px;
+	margin-top: -10px;
+}
+#container .scenny h2{
+	font-weight: normal;
+}
+#container .scenny figure{
+	margin-top: 16px;
+	margin-right: 15px;
+	text-align: center;
+	color: #666;
+	border: 0.1px solid #DDDDDD;
+}
+/*footer开始*/
+#footer{
+	height: 360px;
+	width: 100%;
+	background: lightslategray;
+	color: lightgray;
+	clear: both;
+}
+#footer .top{
+	width: 1000px;
+	height: 280px;
+	margin: auto;
+	min-width: 1000px;
+	background: lightslategray;
+	text-align: center;
+}
+#footer .left{
+	width: 332px;
+	height: 280px;
+	float:left;
+	/*border-left: 0.2px solid lightgray;*/
+}
+#footer .left h3{
+	padding: 10px 15px;
+}
+#footer .left span{
+	display: block;
+	padding: 10px 15px;
+}
+#footer .midd{
+	width: 332px;
+	height: 280px;
+	float:left;
+	/*border-left: 0.2px solid lightgray;*/
+}
+#footer .midd h3{
+	padding: 10px 15px;
+}
+#footer .midd span{
+	display: block;
+	padding: 10px 15px;
+}
+#footer .right{
+	width: 333px;
+	height: 280px;
+	float:left;
+	/*border-left: 0.2px solid lightgray;*/
+}
+#footer .right h3{
+	padding: 10px 15px;
+}
+#footer .right span{
+	display: block;
+	padding: 10px 15px;
+}
+#footer .bottom{
+	width: 1000px;
+	height: 80px;
+	margin: auto;
+	min-width: 1000px;
+	text-align: center;
+	line-height: 80px;
+	border-top: 1px solid lightgray;
+	background: lightslategray;
+}
+
